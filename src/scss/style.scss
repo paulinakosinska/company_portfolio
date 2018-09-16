@@ -1,0 +1,21 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$base-font-size: 12px;
+
+$white: #FFF;
+
+@mixin font-size-mixin($multiplier) {
+    font-size: $base-font-size * $multiplier;
+}
+
+body {
+    background-image: linear-gradient(to right, #353c73, #fdaca1);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: $white;
+    margin-top: 6vh;
+    margin-left: 5vw;
+    margin-right: 17vw;
+}
